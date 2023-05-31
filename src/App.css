@@ -1,42 +1,66 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 20px;
+  background-color: #00C9A7;
+  padding: 25px;
+  border-radius: 4px;
+
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #FBEAFF;;
+}
+
+input {
+  height: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #845EC2;
+  color:#FBEAFF;;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color:#FBEAFF;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #FF0000;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.credencial {
+  font-size: 35px;
+  font-weight: bold;
   text-align: center;
-}
+  color: #FBEAFF;
+  padding: 14px;
+  background-color: #845EC2;
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

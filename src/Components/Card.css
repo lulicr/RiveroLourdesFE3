@@ -1,0 +1,27 @@
+.cardStyle {
+    background-color: #845EC2;
+    border: 1px solid #B39CD0;
+    border-color: #00C9A7;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.cardStyle h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #FBEAFF;
+}
+
+.cardStyle h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #00C9A7;
+}
+h1 {
+    background-color: #00C9A7;
+    border-radius: 4px;
+}
